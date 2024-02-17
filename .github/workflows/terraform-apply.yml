@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  TF_CLOUD_ORGANIZATION: "org-VMJCKbSj4LZeV3qG"
+  TF_CLOUD_ORGANIZATION: "vim .github/workflows/terraform-apply.yml"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
   TF_WORKSPACE: "learn-terraform-github-actions"
   CONFIG_DIRECTORY: "./"
